@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div>sandbox</div>
+    <script>
+        const xhr = new XMLHttpRequest();
+        xhr.open('get',
+            'https://aldh5.tmall.com/recommend2.htm?&appId=201602265,201602267,07055,201602266,2016030118,09044,201605170,201612221,201606279,2016062710&callback=jsonp_31960259'
+            );
+        xhr.send()
+    </script>
+
+</body>
+
+</html>
+<!--运行：终端： npx http-server  -->

@@ -1,0 +1,24 @@
+{
+    "name": "02-npm",
+    "version": "1.0.0",
+    "main": "index.js",
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "description": "",
+    "scripts": {
+        "dev": "gulp -f gulp.config.js",
+        "greeting": "echo hello",
+        "runjs": "node ./demos/02-scripts/s1.js & node ./demos/02-scripts/s2.js",
+        "test": "node ./demos/02-scripts/env.js",
+        "start": "echo $npm_package_name",
+        "env": "env"
+    },
+    "dependencies": {
+        "lodash": "^4.17.21",
+        "underscore": "^1.13.1"
+    },
+    "devDependencies": {
+        "gulp": "^4.0.2"
+    }
+}
