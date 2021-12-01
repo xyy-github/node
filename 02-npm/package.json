@@ -7,7 +7,8 @@
     "license": "ISC",
     "description": "",
     "scripts": {
-        "dev": "gulp -f gulp.config.js",
+        "dev": "NODE_ENV=development gulp -f gulp.config.js", 
+        "pro": "NODE_ENV=production gulp -f gulp.config.js", 
         "greeting": "echo hello",
         "runjs": "node ./demos/02-scripts/s1.js & node ./demos/02-scripts/s2.js",
         "test": "node ./demos/02-scripts/env.js",
@@ -16,6 +17,7 @@
     },
     "dependencies": {
         "lodash": "^4.17.21",
+        "npx": "^10.2.2",
         "underscore": "^1.13.1"
     },
     "devDependencies": {
