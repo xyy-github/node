@@ -1,0 +1,29 @@
+[2021-12-09T17:15:39.814] [DEBUG] cheese - [
+  { id: 1, name: '概念查询', url: '/conceptSearch', children: [] },
+  { id: 2, name: '概念集合', url: '/conceptsets', children: [] },
+  {
+    id: 3,
+    name: '数据中心',
+    url: '/datacenter',
+    children: [ [Object], [Object] ]
+  },
+  {
+    id: 7,
+    name: '临床研究',
+    url: '/myTopic',
+    children: [ [Object], [Object], [Object], [Object] ]
+  },
+  {
+    id: 18,
+    name: '文献检索分析',
+    url: '/researchDesign/researchIndex',
+    children: []
+  },
+  { id: 19, name: '病理中心', url: '/wsi', children: [] },
+  {
+    id: 20,
+    name: '系统管理',
+    url: '/admin',
+    children: [ [Object], [Object], [Object] ]
+  }
+]

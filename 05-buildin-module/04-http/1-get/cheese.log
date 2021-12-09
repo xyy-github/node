@@ -7112,3 +7112,4 @@
 [2021-12-07T13:39:23.380] [DEBUG] cheese - [object Object]{"timestamp":1638855563549,"status":415,"error":"Unsupported Media Type","path":"/cloud/template"}
 [2021-12-07T13:39:23.860] [DEBUG] cheese - [object Object]{"timestamp":1638855564022,"status":415,"error":"Unsupported Media Type","path":"/cloud/template"}
 [2021-12-07T13:56:49.640] [DEBUG] cheese - [object Object]{"timestamp":1638856609774,"status":415,"error":"Unsupported Media Type","path":"/cloud/template"}
+[2021-12-08T14:00:35.655] [DEBUG] cheese - [object Object]{"timestamp":1638943235646,"status":415,"error":"Unsupported Media Type","path":"/cloud/template"}
