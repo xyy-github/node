@@ -35,11 +35,10 @@ http.createServer(function (req, res) {
     /* 方式二： */
     const reqUrl = req.url
     // const type=mime.getType(reqUrl.split('.')[1])
-    // console.log(type)
     // res.writeHead(200, {
     //     'content-type': type
     // })
-    const file = fs.readFileSync(`.${reqUrl}`)
+    const file = fs.readFileSync(`./static${reqUrl}`)
     res.end(file)
 
 }).listen(8000, 'localhost', function () {
